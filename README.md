@@ -1,6 +1,8 @@
 # GC_DG_mems
 contains likely members in all globular cluster and dwarf galaxies
+
 Author: Ting Li, Jordan Bruce, Yingyi Song
+
 email: ting.li@astro.utoronto.ca
 
 Globular Cluster (GC) membership probability are taken from Vasiliev&Baumgardt(2021) using the following code:
@@ -10,12 +12,14 @@ For each GC, distance is taken from aumgardt&Vasiliev(2021), line-of-sight veloc
 from Baumgardt et al.(2019, MNRAS, 482, 5138), and proper motions (PM) computed using Gaia EDR3 by Vasiliev&Baumgardt(2021).
 
 Several metallicity and age resourses are used here, mainly:
-metallicity_K19, age_K19 from Kruijssen 2019 (average of 3 resource) 
-metallicity_V20, age_V20 from Valcin et al. 2020 (derived from HST photometry)
-metallicity_B19 from Bailin 2019 (combined of several spectroscopic metallicity resource)
-metallicity_H10 from Harris 2010 (a compilation of different resource)
 
-A comparison of the metallicity and age from diffrerent resource. -- TODO
+metallicity_K19, age_K19 from Kruijssen 2019 (average of 3 resource) 
+
+metallicity_V20, age_V20 from Valcin et al. 2020 (derived from HST photometry)
+
+metallicity_B19 from Bailin 2019 (combined of several spectroscopic metallicity resource)
+
+metallicity_H10 from Harris 2010 (a compilation of different resource)
 
 Contains two files for different probability threshold.
 P03: probablilty > 0.3 (larger sample, completeness)
